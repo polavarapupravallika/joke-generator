@@ -4,26 +4,26 @@
   align-items: center;
   min-height: 50vh;
   background: linear-gradient(135deg,#e3f2fd 0%,#bbdefb 100%);
-  padding: 1rem;           /* avoid touching the edges on small screens */
+  padding: 1rem;         
 }
 
 .home-container {
   background: #ffffff;
-  padding: 1.5rem 2rem;    /* a little less padding */
+  padding: 1.5rem 2rem;    
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  max-width: 400px;        /* limit the width */
-  width: 100%;             /* grow to available space up to max */
+  max-width: 400px;        
+  width: 100%;             
 }
 
 .home-container h2 {
   margin: 0 0 1rem;
   color: #212121;
-  font-size: 1.75rem;      /* slightly smaller heading */
+  font-size: 1.75rem;      
 }
 
 .home-container p {
@@ -36,7 +36,6 @@
   background: #1976d2;
   color: #fff;
   border: none;
-  /* smaller button */
   border-radius: 4px;
   cursor: pointer;
 }

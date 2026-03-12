@@ -27,12 +27,6 @@ body {
     background-color: white;
 }
 
-.app-title {
-    background: linear-gradient(120deg, brown, black);
-    /*ebkit-background-clip: text;*/
-    -webkit-text-fill-color: transparent;
-}
-
 .joke-question {
     border-radius: 5px;
     width: 100%;
@@ -89,8 +83,6 @@ body {
 .navbar a:hover {
   text-decoration: underline;
 }
-
-/* Space below navbar */
 .page-content {
   margin-top: 40px;
 }
